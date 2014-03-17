@@ -1,7 +1,8 @@
-Akka Mailbox Size
+Akka Actor Statistics
 =============================
-This tiny code snippets pulls mailbox sizes from Akka Actors. In addition to that, you can implement an own interface `StatisticActor` in order to capture
-processed message time/processed message count. This is handy in order to perform monitoring/tuning of your Akka system without the need
+This tiny code snippets pulls statistics  (mailbox sizes/processing times) from Akka Actors. In addition to that, you can implement an own
+interface `StatisticActor` in order to capture processed message time/processed message count.
+This is handy in order to perform monitoring/tuning of your Akka system without the need
 to install a huge console setup with MongoDB etc.
 
 
