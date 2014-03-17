@@ -21,7 +21,9 @@ Following values are captured:
 
   Please note, as soon as the actors and its children are restarted, the statistics are reset.
 
-  **Example**
+
+**Example**
+
 
     ActorRef ref = system.actorOf(Props.create(TestActor.class).withRouter(new SmallestMailboxRouter(50)), "TestActor");
     ActorMetrics stats = StatisticCollector.stats(ref);
